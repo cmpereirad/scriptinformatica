@@ -1,0 +1,17 @@
+.intro{
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+input{
+    transition:500;
+}
+input:focus{
+    font-size: medium;
+    width: 110%;
+    height: auto;
+}

@@ -1,0 +1,13 @@
+.img1{
+    transition:all 500ms ;
+    opacity: 100%;
+    border-radius: 1cm;
+}
+.img1:hover{
+    transform: scale(1.1,1.1);
+    opacity: 70%;
+}
+.imgPadding{
+    padding: 15px;
+    margin: 20px;
+}

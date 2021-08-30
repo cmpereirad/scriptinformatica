@@ -1,0 +1,53 @@
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.proc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tituloProc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.procImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
