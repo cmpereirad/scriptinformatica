@@ -17,7 +17,7 @@ h1 {
 
 p {
   color: #79858C;
-  font-size: small;
+  font-size: medium;
 }
 
 .buttongrad {
@@ -57,6 +57,22 @@ li {
   list-style: none;
 }
 
+.fa-facebook {
+  color: #59d0ff;
+}
+
+.fa-instagram {
+  color: #f73fe7;
+}
+
+.fa-whatsapp {
+  color: #50f82e;
+}
+
+.fa-envelope {
+  color: #ff6767;
+}
+
 .img1 {
   transition: all 500ms;
   opacity: 100%;
@@ -70,7 +86,6 @@ li {
 
 .imgPadding {
   padding: 15px;
-  margin: 20px;
 }
 
 .pie {
@@ -137,7 +152,7 @@ li {
   .pie {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 25px;
     margin-top: 50px;
@@ -179,7 +194,6 @@ h1 {
 
 .imgSecciones {
   padding-left: 100px;
-  margin: 20px;
 }
 
 .intro {

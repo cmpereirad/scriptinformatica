@@ -7,6 +7,12 @@ $grad2: #c3e5fa;
 $grad1Hover: #067aff5b;
 $grad2Hover: #02d9ffe1;
 $aPieHover: #02eeffe3;
+$face:#59d0ff;
+$insta:#f73fe7;
+$whats:#50f82e;
+$mail:#ff6767;
+
+
 .titulo{
     color: $azul;
     background-color: $blanco;
@@ -24,7 +30,7 @@ h1{
 }
 p{
     color: $gris;
-    font-size: small;
+    font-size: medium;
 }
 .buttongrad{
     background-image: linear-gradient(to bottom, $grad1,  $grad2);
@@ -55,4 +61,16 @@ li{
 .limenu{
     font-size: medium;
     list-style: none;
+}
+
+$footer:(
+    facebook:$face,
+    instagram:$insta,
+    whatsapp:$whats,
+    envelope:$mail
+);
+@each $i, $color in $footer {
+    .fa-#{$i}{
+        color: $color;
+    }
 }
