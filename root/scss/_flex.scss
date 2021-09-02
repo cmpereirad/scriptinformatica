@@ -6,6 +6,8 @@
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
 }
 .proc{
     display: flex;
@@ -36,7 +38,7 @@
 .procImg{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: baseline;
 
 }
@@ -62,5 +64,7 @@
         margin-top: 50px;
         margin-left: 100px;
         margin-right: 100px;
+        list-style: none;
+        text-decoration: none;
     }
 }

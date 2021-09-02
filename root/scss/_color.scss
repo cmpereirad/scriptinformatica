@@ -2,6 +2,7 @@ $azul:#2D4859;
 $gris:#79858C;
 $blanco:#ffffff;
 $celeste:#ceecff;
+$hover:#15dafd;
 $grad1: #F2F2F2;
 $grad2: #c3e5fa;
 $grad1Hover: #067aff5b;
@@ -49,7 +50,7 @@ p{
             text-decoration: none;
             }
         &__lista:hover{
-            color:$celeste;
+            color:$hover;
             }
 }
 a{
