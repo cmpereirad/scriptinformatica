@@ -4,9 +4,48 @@
     border-radius: 1cm;
 }
 .img1:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.1,1.05);
     opacity: 70%;
 }
 .imgPadding{
     padding: 15px;
 }
+.back{
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    inline-size: 80%;
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+}
+.parallax{
+    height: 800px;
+    background-image: url('../Assets/Imagenes/pcR.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    }
+.parallaxComercios{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/dev.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    }
+.parallaxParticulares{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/diskR.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    }
+.parallaxNosotros{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/nosotros.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    }
+    .parallaxContacto{
+        height: 400px;
+        background-image: url('../Assets/Imagenes/contacto.jpg');
+        background-size:cover;
+        background-attachment:fixed;
+        }
