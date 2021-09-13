@@ -1,0 +1,297 @@
+.titulo {
+  color: #2D4859;
+  background-color: #ffffff;
+}
+
+.proc {
+  background-color: #ceecff;
+}
+
+h1, h2, h3, a, li {
+  color: #2D4859;
+}
+
+h1 {
+  font-size: normal;
+}
+
+p {
+  color: #79858C;
+  font-size: medium;
+}
+
+.buttongrad {
+  background-image: linear-gradient(to bottom, #F2F2F2, #c3e5fa);
+}
+
+.buttongrad:hover {
+  background-image: linear-gradient(to bottom, #067aff5b, #02d9ffe1);
+}
+
+#formulario {
+  color: #79858C;
+}
+
+.pie {
+  background-color: #2D4859;
+}
+.pie__lista {
+  color: #ffffff;
+  font-size: x-large;
+  text-decoration: none;
+}
+.pie__lista:hover {
+  color: #15dafd;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-size: small;
+}
+
+.limenu {
+  font-size: medium;
+  list-style: none;
+}
+
+.sobreImg {
+  color: #ffffff;
+  font-size: 72pt;
+}
+
+.fa-facebook {
+  color: #59d0ff;
+}
+
+.fa-instagram {
+  color: #f73fe7;
+}
+
+.fa-whatsapp {
+  color: #50f82e;
+}
+
+.fa-envelope {
+  color: #ff6767;
+}
+
+.img1 {
+  transition: all 500ms;
+  opacity: 100%;
+  border-radius: 1cm;
+}
+
+.img1:hover {
+  transform: scale(1.1, 1.05);
+  opacity: 70%;
+}
+
+.imgPadding {
+  padding: 15px;
+}
+
+.back {
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  inline-size: 80%;
+  padding: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+.parallax {
+  height: 800px;
+  background-image: url("../Assets/Imagenes/pcR.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallaxComercios {
+  height: 400px;
+  background-image: url("../Assets/Imagenes/dev.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallaxParticulares {
+  height: 400px;
+  background-image: url("../Assets/Imagenes/diskR.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallaxNosotros {
+  height: 400px;
+  background-image: url("../Assets/Imagenes/nosotros.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallaxContacto {
+  height: 400px;
+  background-image: url("../Assets/Imagenes/contacto.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.proc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+}
+
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tituloProc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.procImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.centrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobreImg {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+  .pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+.encabezado {
+  padding: 5px;
+}
+
+.tituloProc, .procImg {
+  padding: 25px;
+}
+
+.proc {
+  margin: 15px;
+  padding: 25px;
+}
+
+.limenu {
+  padding: 15px;
+}
+
+.buttongrad {
+  padding: 10px;
+  border-radius: 1cm;
+  transition: all 200ms;
+}
+
+h1 {
+  padding: 5px;
+}
+
+.principal {
+  padding: 20px, 5px;
+  margin: 20px;
+}
+
+.imgSecciones {
+  padding-left: 100px;
+}
+
+.sobreImg {
+  padding: 20px;
+  margin: 10px;
+}
+
+.intro {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+input {
+  transition: 500;
+}
+
+input:focus {
+  font-size: medium;
+  width: 110%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

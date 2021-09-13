@@ -1,0 +1,81 @@
+$azul:#2D4859;
+$gris:#79858C;
+$blanco:#ffffff;
+$celeste:#ceecff;
+$hover:#15dafd;
+$grad1: #F2F2F2;
+$grad2: #c3e5fa;
+$grad1Hover: #067aff5b;
+$grad2Hover: #02d9ffe1;
+$aPieHover: #02eeffe3;
+$face:#59d0ff;
+$insta:#f73fe7;
+$whats:#50f82e;
+$mail:#ff6767;
+
+
+.titulo{
+    color: $azul;
+    background-color: $blanco;
+}
+
+.proc{
+    background-color: $celeste;
+}
+
+h1, h2, h3, a, li{
+    color: $azul;
+}
+h1{
+    font-size: normal;
+}
+p{
+    color: $gris;
+    font-size: medium;
+}
+.buttongrad{
+    background-image: linear-gradient(to bottom, $grad1,  $grad2);
+}
+.buttongrad:hover{
+    background-image: linear-gradient(to bottom, $grad1Hover, $grad2Hover);
+}
+#formulario {
+    color:$gris;
+}
+.pie{
+    background-color: $azul;
+        &__lista{
+            color: $blanco;
+            font-size: x-large;
+            text-decoration: none;
+            }
+        &__lista:hover{
+            color:$hover;
+            }
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: small;
+}
+.limenu{
+    font-size: medium;
+    list-style: none;
+}
+.sobreImg{
+    color:$blanco;
+    font-size: 72pt;
+
+}
+$footer:(
+    facebook:$face,
+    instagram:$insta,
+    whatsapp:$whats,
+    envelope:$mail
+);
+@each $i, $color in $footer {
+    .fa-#{$i}{
+        color: $color;
+    }
+}

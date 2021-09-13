@@ -1,0 +1,76 @@
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+.proc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tituloProc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.procImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobreImg{
+    display: flex;
+    justify-content: center;
+    align-content:flex-end;
+}
+
+@media only screen and (max-width: 767px){
+    .pie{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 25px;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        list-style: none;
+        text-decoration: none;
+    }
+}
